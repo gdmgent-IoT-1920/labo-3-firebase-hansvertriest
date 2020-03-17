@@ -9,7 +9,7 @@ DOCUMENT = 'metrics'
 NEIGHBOURS_NEEDED = 3
 
 # firebase
-cred = credentials.Certificate("./pidashboard-866ea-firebase-adminsdk-6h13v-78b029c611.json")
+cred = credentials.Certificate("./config.json")
 firebase_admin.initialize_app(cred)
 
 
